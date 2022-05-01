@@ -9,10 +9,10 @@ The purpose of this project is to analyze the Amazon Vine program and determine 
 * Total Vine reviews and non-Vine reviews
 ![image](https://user-images.githubusercontent.com/96553992/166168193-daf8ff19-4185-4048-85c4-fe8c0f9a0133.png)
 
-* Vine Reviews were 
+* Vine Reviews 
 ![image](https://user-images.githubusercontent.com/96553992/166168099-890a516e-63e8-4dda-ab4f-43210f7d4fd7.png)
 
-*  Non-Vine reviews
+*  Non-Vine Reviews
 ![image](https://user-images.githubusercontent.com/96553992/166168118-bcd40db2-6d4b-4ffd-b57b-16fdea630fd4.png)
 
 Percentage of Vine Reviews that were 5 stars
@@ -23,3 +23,5 @@ Percnetage of non-Vine reviews that were 5 stars
 
 
 ## Summary
+
+The metrics revealed that  2.6% of the reviews in the Vine program were 5 star reviews while the non-Vine reviews non-Vine reviews is 97.4%. Based on the results, there is no positivity bias for reviews in the Vine program. The Vine program which reqiuires reviews is not inclining customers to give good reviews once they recieve their toy. Also, this dataset happens to have almost all people doing toy reviews that are not a part of the Vine program so it is not the ideal dataset to explore if there is positivity bias. An additional analysis that could be conducted is taking a look at the opposite spectrum and doing the same type of analysis for 1 star reviews. The results would help to confirm if any bias can be inferred from the Toys dataset.
