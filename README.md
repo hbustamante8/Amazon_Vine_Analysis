@@ -7,13 +7,13 @@ The purpose of this project is to analyze the Amazon Vine program and determine 
 ## Results
 
 * Total Vine reviews and non-Vine reviews
-* ![image](https://user-images.githubusercontent.com/96553992/166168193-daf8ff19-4185-4048-85c4-fe8c0f9a0133.png)
+![image](https://user-images.githubusercontent.com/96553992/166168193-daf8ff19-4185-4048-85c4-fe8c0f9a0133.png)
 
 * Vine Reviews were 
 ![image](https://user-images.githubusercontent.com/96553992/166168099-890a516e-63e8-4dda-ab4f-43210f7d4fd7.png)
 
 *  Non-Vine reviews
-  ![image](https://user-images.githubusercontent.com/96553992/166168118-bcd40db2-6d4b-4ffd-b57b-16fdea630fd4.png)
+![image](https://user-images.githubusercontent.com/96553992/166168118-bcd40db2-6d4b-4ffd-b57b-16fdea630fd4.png)
 
 Percentage of Vine Reviews that were 5 stars
 ![image](https://user-images.githubusercontent.com/96553992/166168317-fd66a05e-c5fe-49ee-b508-75d71f97c4aa.png)
