@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview of Analysis
-The purpose of this project is to analyze the Amazon Vine program and determine if there is bias towards favorable reviews between vine/non-vine members. PySpakr was used to perform the ETL process and then used to connect to an Amazon Web Services RDS instance. From PySpark, the data from the instance was loaded and transformed into pgAdmin tables. Lastly, Jupyter notebook was used to calculate diferent metrics on the vine reviews. This specifc dataset was US reviews for Toys.
+The purpose of this project is to analyze the Amazon Vine program and determine if there is bias towards favorable reviews between Vine/non-Vine members. PySpark was used to perform the ETL process and then used to connect to an Amazon Web Services RDS instance. From PySpark, the data from the instance was loaded and transformed into pgAdmin tables. Lastly, Jupyter notebook was used to calculate different metrics on the vine reviews. This specific dataset was US reviews for Toys.
 
 
 ## Results
@@ -18,10 +18,10 @@ The purpose of this project is to analyze the Amazon Vine program and determine 
 Percentage of Vine Reviews that were 5 stars
 ![image](https://user-images.githubusercontent.com/96553992/166168317-fd66a05e-c5fe-49ee-b508-75d71f97c4aa.png)
 
-Percnetage of non-Vine reviews that were 5 stars
+Percentage of non-Vine reviews that were 5 stars
 ![image](https://user-images.githubusercontent.com/96553992/166168331-e3c164fa-a7f5-4ce1-a308-b3307e3fa099.png)
 
 
 ## Summary
 
-The metrics revealed that  2.6% of the reviews in the Vine program were 5 star reviews while the non-Vine reviews non-Vine reviews is 97.4%. Based on the results, there is no positivity bias for reviews in the Vine program. The Vine program which reqiuires reviews is not inclining customers to give good reviews once they recieve their toy. Also, this dataset happens to have almost all people doing toy reviews that are not a part of the Vine program so it is not the ideal dataset to explore if there is positivity bias. An additional analysis that could be conducted is taking a look at the opposite spectrum and doing the same type of analysis for 1 star reviews. The results would help to confirm if any bias can be inferred from the Toys dataset.
+The metrics revealed that 2.6% of the reviews in the Vine program are 5-star reviews while the non-Vine reviews are 97.4% of the total. Based on the results, there is no positivity bias for reviews in the Vine program. The Vine program which requires reviews is not inclining customers to give good reviews once they receive their orders. Also, this dataset happens to have almost all people doing toy reviews that are not a part of the Vine program, so it is not the ideal dataset to explore if there is positivity bias. An additional analysis that could be conducted at the opposite spectrum and repeat the analysis for 1-star reviews. The results would help to confirm if any bias can be inferred from the Toys dataset.
